@@ -1,0 +1,5 @@
+FROM node:9-alpine as base
+
+RUN apk add vips fftw --no-cache --repository https://dl-3.alpinelinux.org/alpine/edge/testing/
+
+# vim: set filetype=dockerfile:
